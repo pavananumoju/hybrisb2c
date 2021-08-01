@@ -1,0 +1,17 @@
+<action-definition id="de.hybris.cockpiting.action.trainingaction"
+    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    	xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/action-definition.xsd">
+
+	<name>Training Action</name>
+	<description>TEST ACTION FOR TRAINING PURPOSE</description>
+	<author>Me</author>
+	<version>0.1</version>
+
+	<actionClassName>de.hybris.training.backoffice.actions.TrainingAction</actionClassName>
+
+	<inputType>java.lang.Object</inputType>
+	<outputType>java.lang.Object</outputType>
+
+	<iconUri>icons/Seablue_512.png</iconUri>
+	<iconDisabledUri>icons/simple_apple.png</iconDisabledUri>
+</action-definition>
